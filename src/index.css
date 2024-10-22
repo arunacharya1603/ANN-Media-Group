@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  white-space: nowrap;
+  /* overflow: hidden; Hide overflow */
+  display: flex; /* Inline-block to take only needed width */
+  animation: marquee 20s linear infinite; /* Adjust speed as necessary */
+  gap: 10rem;
+}
+
+.marquee-wrapper {
+  overflow: hidden; /* Hide any overflowing content */
+  position: relative;
+  width: 100%; /* Full width */
+  background: #ffff; /* Light background for contrast */
+  padding: 10px 0; /* Padding for spacing */
+  display: flex; /* Use flex to center align the text */
+  justify-content: center; /* Center the text */
+}
+
+.font-heading-style{
+  font-family: 'Lato', sans-serif;
+}
