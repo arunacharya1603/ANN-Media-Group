@@ -32,7 +32,7 @@ const InstagramEmbed = () => {
       {/* Instagram Reel Embed */}
       <div className='pt-8'>
         <Link to="https://www.instagram.com/annmediagroup/" target='_blank'>
-          <img src="src\assets\instagram.png" alt="" className='h-96 w-full object-cover'/>
+          <img src="public\instagram.png" alt="" className='h-96 w-full object-cover'/>
         </Link>
       </div>
     </div>

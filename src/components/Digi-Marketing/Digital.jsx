@@ -71,7 +71,7 @@ const Digital = () => {
                     {/* Right Section */}
                     <div className="bg-gray-100 w-full lg:w-1/2 flex items-center justify-center lg:rounded-tr-lg lg:rounded-br-lg overflow-hidden shadow-lg">
                         <img
-                            src="src/assets/banner.jpg"
+                            src="public\banner.jpg"
                             alt="Digital Marketing Banner"
                             className="object-cover w-full h-full"
                         />
