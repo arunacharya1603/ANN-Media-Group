@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
+import Logo from '../../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
       {/* Logo Section */}
       <div className='m-0 p-0'>
         <Link to="/">
-          <img src="src\assets\logo-ann.jpg" alt="Logo..." className='lg:h-20 lg:w-20 h-14 w-14 rounded-full'/>
+          <img src={Logo} alt="Logo..." className='lg:h-20 lg:w-20 h-14 w-14 rounded-full'/>
         </Link>
       </div>
 
