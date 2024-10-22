@@ -12,16 +12,16 @@ const Header = () => {
   };
 
   return (
-    <nav className="flex lg:flex-row justify-between z-10 lg:items-center sticky top-0 p-6 lg:p-8 bg-gray-100 text-white border border-gray-100 shadow-xl shadow-blue-100/50 backdrop-blur-md">
+    <nav className="flex lg:flex-row justify-between z-10 lg:items-center sticky top-0 p-2 lg:p-5 lg:pl-16 lg:pr-16 bg-gray-100 text-white border border-gray-100 shadow-xl shadow-blue-100/50 backdrop-blur-md">
       {/* Logo Section */}
-      <div>
+      <div className='m-0 p-0'>
         <Link to="/">
-          <h1 className="text-2xl lg:text-3xl text-blue-950 font-bold">Logo</h1>
+          <img src="src\assets\logo-ann.jpg" alt="Logo..." className='lg:h-20 lg:w-20 h-14 w-14 rounded-full'/>
         </Link>
       </div>
 
       {/* Navigation Links for Large Screens */}
-      <div className="lg:flex hidden lg:flex-row gap-6 lg:gap-12 mt-4 lg:mt-0 text-blue-950 font-semibold text-lg">
+      <div className="lg:flex hidden lg:flex-row lg:gap-24 gap-6 mt-4 lg:mt-0 text-blue-950 font-semibold text-lg">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaInstagramSquare } from "react-icons/fa";
-import InstagramEmbed from '../Instagram/InstagramEmbed';
+import InstagramEmbedd from '../Instagram/InstagramEmbed';
 import TwitterEmbed from '../Twitter/TwitterEmbed';
 
 const Media = () => {
@@ -128,7 +128,7 @@ const Media = () => {
         {/* You can add more sections here if needed, following a similar pattern */}
 
         <div className="border border-gray-200 shadow-lg rounded-xl p-8 bg-white transition-transform transform hover:scale-105">
-          <InstagramEmbed />
+          <InstagramEmbedd />
         </div>
 
 

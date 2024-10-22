@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const InstagramEmbed = () => {
+const InstagramEmbedd = () => {
   useEffect(() => {
     // Load Instagram's embed script dynamically
     const script = document.createElement('script');
@@ -32,11 +32,12 @@ const InstagramEmbed = () => {
       {/* Instagram Reel Embed */}
       <div className='pt-8'>
         <Link to="https://www.instagram.com/annmediagroup/" target='_blank'>
-          <img src="public\instagram.png" alt="" className='h-96 w-full object-cover'/>
+          <img src="public\instagram.png" alt="" className='h-96 w-full object-cover' />
         </Link>
       </div>
+     
     </div>
   );
 };
 
-export default InstagramEmbed;
+export default InstagramEmbedd;
