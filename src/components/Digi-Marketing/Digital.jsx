@@ -3,6 +3,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import Banner from '../../assets/banner.jpg';
 
 const Digital = () => {
     return (
@@ -71,7 +72,7 @@ const Digital = () => {
                     {/* Right Section */}
                     <div className="bg-gray-100 w-full lg:w-1/2 flex items-center justify-center lg:rounded-tr-lg lg:rounded-br-lg overflow-hidden shadow-lg">
                         <img
-                            src="public\banner.jpg"
+                            src={Banner}
                             alt="Digital Marketing Banner"
                             className="object-cover w-full h-full"
                         />

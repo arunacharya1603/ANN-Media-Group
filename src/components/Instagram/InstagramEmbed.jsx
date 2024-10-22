@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import InstagramBanner from '../../assets/instagram.png';
 
 const InstagramEmbedd = () => {
   useEffect(() => {
@@ -32,7 +33,7 @@ const InstagramEmbedd = () => {
       {/* Instagram Reel Embed */}
       <div className='pt-8'>
         <Link to="https://www.instagram.com/annmediagroup/" target='_blank'>
-          <img src="public\instagram.png" alt="" className='h-96 w-full object-cover' />
+          <img src={InstagramBanner} alt="" className='h-96 w-full object-cover' />
         </Link>
       </div>
      

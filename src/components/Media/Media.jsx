@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FaInstagramSquare } from "react-icons/fa";
 import InstagramEmbedd from '../Instagram/InstagramEmbed';
 import TwitterEmbed from '../Twitter/TwitterEmbed';
 
