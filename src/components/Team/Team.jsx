@@ -68,7 +68,7 @@ const teamMembers = [
 const Team = () => {
   return (
     <section className="py-16 bg-gray-50">
-      <div className="container mx-auto lg:px-20">
+      <div className="container mx-auto px-8 lg:px-20">
         <h2 className="text-4xl font-bold text-center mb-12">Meet Our Team</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
