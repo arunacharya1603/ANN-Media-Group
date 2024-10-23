@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import InstagramEmbedd from '../Instagram/InstagramEmbed';
 import TwitterEmbed from '../Twitter/TwitterEmbed';
+import FacebookEmbed from '../Facebook/FacebookEmbed';
+import FacebookBanner from '../../assets/fb-banner.png';
 
 const Media = () => {
   useEffect(() => {
@@ -89,35 +91,12 @@ const Media = () => {
             Stay updated with our latest news and media posts by following us on Facebook. Join our community and engage with content tailored for our audience.
           </p>
 
-          {/* Facebook Page Embed for Larger Screens */}
-          <div className="hidden lg:block">
-            <div
-              className="fb-page rounded-md shadow-md"
-              data-href="https://www.facebook.com/annmediagroup"
-              data-tabs="timeline"
-              data-width="500" 
-              data-height="600"
-              data-small-header="false"
-              data-adapt-container-width="true"
-              data-hide-cover="false"
-              data-show-facepile="true"
-            ></div>
+          <div className='pt-8'>
+            <Link to="https://www.facebook.com/annmediagroup" target='_blank'>
+              <img src={FacebookBanner} alt="" className='h-96 w-full object-cover' />
+            </Link>
           </div>
 
-          {/* Facebook Page Embed for Smaller Screens */}
-          <div className="sm:block md:block lg:hidden">
-            <div
-              className="fb-page rounded-md shadow-md"
-              data-href="https://www.facebook.com/annmediagroup"
-              data-tabs="timeline"
-              data-width="300" 
-              data-height="400"
-              data-small-header="true"  
-              data-adapt-container-width="true"
-              data-hide-cover="true"
-              data-show-facepile="false"
-            ></div>
-          </div>
         </div>
 
 
@@ -133,6 +112,10 @@ const Media = () => {
 
         <div className="border border-gray-200 shadow-lg rounded-xl p-8 bg-white transition-transform transform hover:scale-105">
           <TwitterEmbed />
+        </div>
+
+        <div className="border border-gray-200 shadow-lg rounded-xl p-8 bg-white transition-transform transform hover:scale-105">
+          <FacebookEmbed />
         </div>
 
       </div>

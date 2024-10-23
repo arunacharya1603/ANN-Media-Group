@@ -1,19 +1,9 @@
 import React from 'react';
 
+
 const FacebookEmbed = () => {
   return (
-    <div className="facebook-video-embed">
-      <iframe 
-        src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fannmediagroup%2Fvideos%2F1600799910793279%2F&show_text=true&width=560&t=0" 
-        width="560" 
-        height="429" 
-        style={{ border: 'none', overflow: 'hidden' }} 
-        scrolling="no" 
-        frameBorder="0" 
-        allowFullScreen={true} 
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-      ></iframe>
-    </div>
+    <div class="fb-page" data-href="https://www.facebook.com/annmediagroup" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/annmediagroup" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/annmediagroup">Ann Media Group</a></blockquote></div>
   );
 };
 
