@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9fafb" />
+  
+  <!-- Large Hand Gesture -->
+  <path d="M200 200 C180 160, 250 100, 300 200 Q340 240, 270 240 Z" fill="#fb7185" />
+  <circle cx="220" cy="220" r="20" fill="#f87171" />
+  <circle cx="250" cy="230" r="10" fill="#fda4af" />
+  
+  <!-- Dotted Circle Path -->
+  <path d="M400 300 A100 100 0 0 1 500 400" stroke="#a7f3d0" stroke-width="10" fill="none" stroke-dasharray="15" />
+  <path d="M500 400 A100 100 0 0 1 600 300" stroke="#a7f3d0" stroke-width="10" fill="none" stroke-dasharray="15" />
+  
+  <!-- Content Marketing Text -->
+  <text x="400" y="280" font-family="Arial" font-size="40" fill="#374151" font-weight="bold">CONTENT</text>
+  <text x="400" y="320" font-family="Arial" font-size="40" fill="#374151" font-weight="bold">MARKETING</text>
+  
+  <!-- Play Button Icon -->
+  <rect x="280" y="160" width="80" height="80" rx="10" ry="10" fill="#f87171" />
+  <polygon points="300,180 330,200 300,220" fill="white" />
+  
+  <!-- Image Icon 1 -->
+  <rect x="520" y="150" width="80" height="80" rx="10" ry="10" fill="#34d399" />
+  <polygon points="540,170 580,170 560,150" fill="#f9fafb" />
+  <rect x="540" y="190" width="40" height="40" fill="#f9fafb" />
+  
+  <!-- Image Icon 2 -->
+  <rect x="400" y="420" width="80" height="80" rx="10" ry="10" fill="#fbbf24" />
+  <circle cx="440" cy="460" r="20" fill="#f87171" />
+  
+  <!-- Decorative shapes -->
+  <circle cx="300" cy="350" r="10" fill="#10b981" />
+  <circle cx="580" cy="100" r="10" fill="#f87171" />
+  <rect x="320" y="100" width="10" height="10" fill="#60a5fa" />
+  <rect x="600" y="300" width="10" height="10" fill="#fbbf24" />
+  <path d="M320 420 Q330 410, 340 420" stroke="#f87171" stroke-width="3" fill="none"/>
+</svg>

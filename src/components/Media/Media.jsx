@@ -113,11 +113,6 @@ const Media = () => {
         <div className="border border-gray-200 shadow-lg rounded-xl p-8 bg-white transition-transform transform hover:scale-105">
           <TwitterEmbed />
         </div>
-
-        <div className="border border-gray-200 shadow-lg rounded-xl p-8 bg-white transition-transform transform hover:scale-105">
-          <FacebookEmbed />
-        </div>
-
       </div>
     </div>
   );
